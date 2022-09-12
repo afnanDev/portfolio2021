@@ -1,0 +1,12 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+.faq{
+
+    .accordion {
+        direction: rtl;
+
+        .accordion-button.collapsed{
+            left: 0px;
+        }
+    }
+}
